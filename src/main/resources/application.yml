@@ -6,13 +6,5 @@ server:
 spring:
   profiles:
     active: dev
-  data:
-    mongodb:
-      uri:  mongodb://localhost:27017/orderdb
-      host: localhost
-      port: 27017
-      database: orderdb
-      repositories:
-        enabled: true
   application:
     name: ORDER-SERVICE
